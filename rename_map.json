@@ -1,0 +1,134 @@
+[
+  {
+    "target": "Overview.md",
+    "operation_id": "readOverview",
+    "source": "01_System_Prompt_胡梦霞思想智能体.md",
+    "copied": true
+  },
+  {
+    "target": "Timeline.md",
+    "operation_id": "readTimeline",
+    "source": "03_胡梦霞人生关键节点年表.md",
+    "copied": true
+  },
+  {
+    "target": "Beliefs.md",
+    "operation_id": "readBeliefs",
+    "source": "04_胡梦霞的信念与原则清单.md",
+    "copied": true
+  },
+  {
+    "target": "KnowledgeSystem.md",
+    "operation_id": "readKnowledgeSystem",
+    "source": "05_胡梦霞经营财税知识体系全景图.md",
+    "copied": true
+  },
+  {
+    "target": "Personality.md",
+    "operation_id": "readPersonality",
+    "source": "06_胡梦霞人格分析报告_九型人格与MBTI.md",
+    "copied": true
+  },
+  {
+    "target": "AgentArchitecture.md",
+    "operation_id": "readAgentArchitecture",
+    "source": "07_胡梦霞Agent架构分析报告.md",
+    "copied": true
+  },
+  {
+    "target": "ThinkingModels.md",
+    "operation_id": "readThinkingModels",
+    "source": "08_胡梦霞思想智能体_30个思维模型工具箱.md",
+    "copied": true
+  },
+  {
+    "target": "ProfessionalBoundaries.md",
+    "operation_id": "readProfessionalBoundaries",
+    "source": "09_经营财税教练不为清单.md",
+    "copied": true
+  },
+  {
+    "target": "CompanyCulture.md",
+    "operation_id": "readCompanyCulture",
+    "source": "10_财青藤企业文化体系.md",
+    "copied": true
+  },
+  {
+    "target": "LanguageStyle.md",
+    "operation_id": "readLanguageStyle",
+    "source": "11_胡梦霞语言风格图谱.md",
+    "copied": true
+  },
+  {
+    "target": "Story01Childhood.md",
+    "operation_id": "readStory01Childhood",
+    "source": "自传_01_第一章_爸爸的店铺：九岁开始的算账人生.md",
+    "copied": true
+  },
+  {
+    "target": "Story02Factory.md",
+    "operation_id": "readStory02Factory",
+    "source": "自传_02_第二章_改革浪潮：从2000人到900人的外资工厂.md",
+    "copied": true
+  },
+  {
+    "target": "Story03BranchReform.md",
+    "operation_id": "readStory03BranchReform",
+    "source": "自传_03_第三章_分公司属我：一个人的战争.md",
+    "copied": true
+  },
+  {
+    "target": "Story04FinanceShift.md",
+    "operation_id": "readStory04FinanceShift",
+    "source": "自传_04_第四章_财务部的两个世界：核算与经营.md",
+    "copied": true
+  },
+  {
+    "target": "Story05LearningByDoing.md",
+    "operation_id": "readStory05LearningByDoing",
+    "source": "自传_05_第五章_30天学完所有岗位：我的「白天帮干活、晚上干自己」法则.md",
+    "copied": true
+  },
+  {
+    "target": "Story06Startup.md",
+    "operation_id": "readStory06Startup",
+    "source": "自传_06_第六章_跳蚤网上的第一个客户：创业从一个帖子开始.md",
+    "copied": true
+  },
+  {
+    "target": "Story07Breakthrough.md",
+    "operation_id": "readStory07Breakthrough",
+    "source": "自传_07_第七章_50万的转折点：一场2.98万的课改变了一切.md",
+    "copied": true
+  },
+  {
+    "target": "Story08IPO.md",
+    "operation_id": "readStory08IPO",
+    "source": "自传_08_第八章_走一遍写出37条问题：IPO辅导与专业升级.md",
+    "copied": true
+  },
+  {
+    "target": "Story09MissionStart.md",
+    "operation_id": "readStory09MissionStart",
+    "source": "自传_09_第九章_地铁4号线上的使命：财青藤商学的诞生.md",
+    "copied": true
+  },
+  {
+    "target": "Story10Investment.md",
+    "operation_id": "readStory10Investment",
+    "source": "自传_10_第十章_从固态电池到60万客单价：投资与咨询的双轮驱动.md",
+    "copied": true
+  },
+  {
+    "target": "Story11IndustryMission.md",
+    "operation_id": "readStory11IndustryMission",
+    "source": "自传_11_第十一章_「胡老师你能改变这个行业」：从个人使命到行业使命.md",
+    "copied": true
+  },
+  {
+    "target": "Story12DigitalLegacy.md",
+    "operation_id": "readStory12DigitalLegacy",
+    "source": "自传_12_第十二章_下一站：数字分身与思想传承.md",
+    "copied": true
+  }
+]

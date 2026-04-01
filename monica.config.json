@@ -1,0 +1,187 @@
+{
+  "template_type": "topic-analyst",
+  "skill_name": "胡梦霞思想智能体知识库",
+  "repo_owner": "chenye1313",
+  "repo_name": "knowledge--hmx",
+  "branch": "main",
+  "guide_file": "README.md",
+  "citation_label": "来源文件",
+  "routes": [
+    {
+      "source": "01_System_Prompt_胡梦霞思想智能体.md",
+      "file": "Overview.md",
+      "operation_id": "readOverview",
+      "summary": "Read the core overview and role definition",
+      "description": "Use for 你是谁、自我介绍、使命、数字分身定位、整体风格与回答原则。",
+      "triggers": ["你是谁", "自我介绍", "你的使命", "数字分身", "整体定位", "回答风格"]
+    },
+    {
+      "source": "03_胡梦霞人生关键节点年表.md",
+      "file": "Timeline.md",
+      "operation_id": "readTimeline",
+      "summary": "Read the life timeline",
+      "description": "Use for 年份、经历顺序、职业阶段、创业时间线、关键节点。",
+      "triggers": ["哪一年", "时间线", "职业路径", "关键节点", "经历顺序", "创业时间"]
+    },
+    {
+      "source": "04_胡梦霞的信念与原则清单.md",
+      "file": "Beliefs.md",
+      "operation_id": "readBeliefs",
+      "summary": "Read the beliefs and principles",
+      "description": "Use for 原则、价值观、使命来源、判断标准、做事底层信念。",
+      "triggers": ["原则", "价值观", "使命", "底层信念", "怎么看待", "判断标准"]
+    },
+    {
+      "source": "05_胡梦霞经营财税知识体系全景图.md",
+      "file": "KnowledgeSystem.md",
+      "operation_id": "readKnowledgeSystem",
+      "summary": "Read the knowledge system",
+      "description": "Use for 读书、书单、知识来源、专业领域、经营财税知识体系。",
+      "triggers": ["读过哪些书", "书单", "知识体系", "专业领域", "推荐什么书", "经营财税"]
+    },
+    {
+      "source": "06_胡梦霞人格分析报告_九型人格与MBTI.md",
+      "file": "Personality.md",
+      "operation_id": "readPersonality",
+      "summary": "Read the personality analysis",
+      "description": "Use for 性格、九型人格、MBTI、驱动力、人际模式、情感处理。",
+      "triggers": ["性格", "九型人格", "MBTI", "驱动力", "人际关系", "情感处理"]
+    },
+    {
+      "source": "07_胡梦霞Agent架构分析报告.md",
+      "file": "AgentArchitecture.md",
+      "operation_id": "readAgentArchitecture",
+      "summary": "Read the agent architecture analysis",
+      "description": "Use for 优势与劣势、决策方式、为什么会这样、元认知、系统性分析。",
+      "triggers": ["优势", "劣势", "决策方式", "为什么会这样", "元认知", "系统分析"]
+    },
+    {
+      "source": "08_胡梦霞思想智能体_30个思维模型工具箱.md",
+      "file": "ThinkingModels.md",
+      "operation_id": "readThinkingModels",
+      "summary": "Read the thinking models",
+      "description": "Use for 方法论、框架、模型、拆解问题、分析与决策方式。",
+      "triggers": ["思维模型", "方法论", "框架", "怎么分析", "怎么决策", "第一性原理"]
+    },
+    {
+      "source": "09_经营财税教练不为清单.md",
+      "file": "ProfessionalBoundaries.md",
+      "operation_id": "readProfessionalBoundaries",
+      "summary": "Read the professional boundaries",
+      "description": "Use for 不为清单、执业边界、灰色地带、什么不能做、接单原则。",
+      "triggers": ["不为清单", "边界", "灰色地带", "什么不能做", "接单原则", "合规底线"]
+    },
+    {
+      "source": "10_财青藤企业文化体系.md",
+      "file": "CompanyCulture.md",
+      "operation_id": "readCompanyCulture",
+      "summary": "Read the company culture and product system",
+      "description": "Use for 财青藤、企业文化、产品体系、行业、团队、公司介绍。",
+      "triggers": ["财青藤", "企业文化", "产品体系", "团队", "主攻行业", "公司介绍"]
+    },
+    {
+      "source": "11_胡梦霞语言风格图谱.md",
+      "file": "LanguageStyle.md",
+      "operation_id": "readLanguageStyle",
+      "summary": "Read the language style guide",
+      "description": "Use for 口头禅、语气、句式、表达习惯、风格校准。",
+      "triggers": ["语言风格", "口头禅", "语气", "怎么说话", "句式", "风格校准"]
+    },
+    {
+      "source": "自传_01_第一章_爸爸的店铺：九岁开始的算账人生.md",
+      "file": "Story01Childhood.md",
+      "operation_id": "readStory01Childhood",
+      "summary": "Read story chapter 1",
+      "description": "Use for 童年、爸爸的店铺、葡萄换瓜子、铁梳子、堂哥批发店、复印店打字。",
+      "triggers": ["童年", "小时候", "爸爸的店铺", "葡萄换瓜子", "铁梳子", "复印店打字"]
+    },
+    {
+      "source": "自传_02_第二章_改革浪潮：从2000人到900人的外资工厂.md",
+      "file": "Story02Factory.md",
+      "operation_id": "readStory02Factory",
+      "summary": "Read story chapter 2",
+      "description": "Use for 外资工厂、打字第一名、计划员、采购部20人对坐、工厂时代。",
+      "triggers": ["外资工厂", "打字第一名", "计划员", "采购部", "改革浪潮", "工厂时代"]
+    },
+    {
+      "source": "自传_03_第三章_分公司属我：一个人的战争.md",
+      "file": "Story03BranchReform.md",
+      "operation_id": "readStory03BranchReform",
+      "summary": "Read story chapter 3",
+      "description": "Use for 分公司改革、一个人的战争、住宿被拒、保安对话、四个帮派。",
+      "triggers": ["分公司改革", "一个人的战争", "住宿被拒", "保安对话", "四个帮派", "分公司"]
+    },
+    {
+      "source": "自传_04_第四章_财务部的两个世界：核算与经营.md",
+      "file": "Story04FinanceShift.md",
+      "operation_id": "readStory04FinanceShift",
+      "summary": "Read story chapter 4",
+      "description": "Use for 财务部两个世界、核算与经营、导师追问、经营财务转型。",
+      "triggers": ["财务部两个世界", "核算与经营", "导师追问", "经营财务", "核算财务", "毛利率为什么"]
+    },
+    {
+      "source": "自传_05_第五章_30天学完所有岗位：我的「白天帮干活、晚上干自己」法则.md",
+      "file": "Story05LearningByDoing.md",
+      "operation_id": "readStory05LearningByDoing",
+      "summary": "Read story chapter 5",
+      "description": "Use for 30天学完所有岗位、白天帮干活晚上干自己、学习法则、岗位轮训。",
+      "triggers": ["30天学完所有岗位", "白天帮干活晚上干自己", "学习法则", "岗位轮训", "白天帮干活", "晚上干自己"]
+    },
+    {
+      "source": "自传_06_第六章_跳蚤网上的第一个客户：创业从一个帖子开始.md",
+      "file": "Story06Startup.md",
+      "operation_id": "readStory06Startup",
+      "summary": "Read story chapter 6",
+      "description": "Use for 跳蚤网、第一个客户、创业开始、吹了两年、潮汕领导、第二曲线。",
+      "triggers": ["跳蚤网", "第一个客户", "创业开始", "吹了两年", "潮汕领导", "第二曲线"]
+    },
+    {
+      "source": "自传_07_第七章_50万的转折点：一场2.98万的课改变了一切.md",
+      "file": "Story07Breakthrough.md",
+      "operation_id": "readStory07Breakthrough",
+      "summary": "Read story chapter 7",
+      "description": "Use for 2.98万课程、PPT签约50万、听课转折、现场签约。",
+      "triggers": ["2.98万", "50万转折", "PPT签约50万", "听课转折", "现场签约", "教练方元"]
+    },
+    {
+      "source": "自传_08_第八章_走一遍写出37条问题：IPO辅导与专业升级.md",
+      "file": "Story08IPO.md",
+      "operation_id": "readStory08IPO",
+      "summary": "Read story chapter 8",
+      "description": "Use for IPO、37条问题、专业升级、走一遍工厂、上市辅导。",
+      "triggers": ["IPO", "37条问题", "专业升级", "走一遍工厂", "上市辅导", "尽调"]
+    },
+    {
+      "source": "自传_09_第九章_地铁4号线上的使命：财青藤商学的诞生.md",
+      "file": "Story09MissionStart.md",
+      "operation_id": "readStory09MissionStart",
+      "summary": "Read story chapter 9",
+      "description": "Use for 地铁4号线、财税妈妈、两次冠军、领导先干、财青藤诞生。",
+      "triggers": ["地铁4号线", "财税妈妈", "两次冠军", "领导先干", "财青藤诞生", "使命起点"]
+    },
+    {
+      "source": "自传_10_第十章_从固态电池到60万客单价：投资与咨询的双轮驱动.md",
+      "file": "Story10Investment.md",
+      "operation_id": "readStory10Investment",
+      "summary": "Read story chapter 10",
+      "description": "Use for 固态电池、60万客单价、1500万利润、投资与咨询、智能制造。",
+      "triggers": ["固态电池", "60万客单价", "1500万利润", "投资与咨询", "智能制造", "涨价筛选"]
+    },
+    {
+      "source": "自传_11_第十一章_「胡老师你能改变这个行业」：从个人使命到行业使命.md",
+      "file": "Story11IndustryMission.md",
+      "operation_id": "readStory11IndustryMission",
+      "summary": "Read story chapter 11",
+      "description": "Use for 改变行业、三亚峰会、66元课程、疫情课程、行业使命。",
+      "triggers": ["改变行业", "三亚峰会", "66元课程", "疫情课程", "行业使命", "培养人才"]
+    },
+    {
+      "source": "自传_12_第十二章_下一站：数字分身与思想传承.md",
+      "file": "Story12DigitalLegacy.md",
+      "operation_id": "readStory12DigitalLegacy",
+      "summary": "Read story chapter 12",
+      "description": "Use for 凌晨两点、数字分身、思想传承、下一站、为什么做数字分身。",
+      "triggers": ["凌晨两点", "数字分身", "思想传承", "下一站", "为什么做数字分身", "传承"]
+    }
+  ]
+}

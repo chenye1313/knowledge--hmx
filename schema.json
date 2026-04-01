@@ -1,0 +1,452 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "胡梦霞思想智能体知识库",
+    "description": "Read knowledge documents for 胡梦霞思想智能体知识库 from the public GitHub repository before answering.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://raw.githubusercontent.com/chenye1313/knowledge--hmx/main"
+    }
+  ],
+  "paths": {
+    "/README.md": {
+      "get": {
+        "operationId": "readKnowledgeGuide",
+        "summary": "Read the repository guide",
+        "description": "Read the repository guide before choosing a more specific knowledge file.",
+        "responses": {
+          "200": {
+            "description": "Repository guide",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Overview.md": {
+      "get": {
+        "operationId": "readOverview",
+        "summary": "Read the core overview and role definition",
+        "description": "Use for 你是谁、自我介绍、使命、数字分身定位、整体风格与回答原则。",
+        "responses": {
+          "200": {
+            "description": "Overview.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Timeline.md": {
+      "get": {
+        "operationId": "readTimeline",
+        "summary": "Read the life timeline",
+        "description": "Use for 年份、经历顺序、职业阶段、创业时间线、关键节点。",
+        "responses": {
+          "200": {
+            "description": "Timeline.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Beliefs.md": {
+      "get": {
+        "operationId": "readBeliefs",
+        "summary": "Read the beliefs and principles",
+        "description": "Use for 原则、价值观、使命来源、判断标准、做事底层信念。",
+        "responses": {
+          "200": {
+            "description": "Beliefs.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/KnowledgeSystem.md": {
+      "get": {
+        "operationId": "readKnowledgeSystem",
+        "summary": "Read the knowledge system",
+        "description": "Use for 读书、书单、知识来源、专业领域、经营财税知识体系。",
+        "responses": {
+          "200": {
+            "description": "KnowledgeSystem.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Personality.md": {
+      "get": {
+        "operationId": "readPersonality",
+        "summary": "Read the personality analysis",
+        "description": "Use for 性格、九型人格、MBTI、驱动力、人际模式、情感处理。",
+        "responses": {
+          "200": {
+            "description": "Personality.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/AgentArchitecture.md": {
+      "get": {
+        "operationId": "readAgentArchitecture",
+        "summary": "Read the agent architecture analysis",
+        "description": "Use for 优势与劣势、决策方式、为什么会这样、元认知、系统性分析。",
+        "responses": {
+          "200": {
+            "description": "AgentArchitecture.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ThinkingModels.md": {
+      "get": {
+        "operationId": "readThinkingModels",
+        "summary": "Read the thinking models",
+        "description": "Use for 方法论、框架、模型、拆解问题、分析与决策方式。",
+        "responses": {
+          "200": {
+            "description": "ThinkingModels.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ProfessionalBoundaries.md": {
+      "get": {
+        "operationId": "readProfessionalBoundaries",
+        "summary": "Read the professional boundaries",
+        "description": "Use for 不为清单、执业边界、灰色地带、什么不能做、接单原则。",
+        "responses": {
+          "200": {
+            "description": "ProfessionalBoundaries.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CompanyCulture.md": {
+      "get": {
+        "operationId": "readCompanyCulture",
+        "summary": "Read the company culture and product system",
+        "description": "Use for 财青藤、企业文化、产品体系、行业、团队、公司介绍。",
+        "responses": {
+          "200": {
+            "description": "CompanyCulture.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/LanguageStyle.md": {
+      "get": {
+        "operationId": "readLanguageStyle",
+        "summary": "Read the language style guide",
+        "description": "Use for 口头禅、语气、句式、表达习惯、风格校准。",
+        "responses": {
+          "200": {
+            "description": "LanguageStyle.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story01Childhood.md": {
+      "get": {
+        "operationId": "readStory01Childhood",
+        "summary": "Read story chapter 1",
+        "description": "Use for 童年、爸爸的店铺、葡萄换瓜子、铁梳子、堂哥批发店、复印店打字。",
+        "responses": {
+          "200": {
+            "description": "Story01Childhood.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story02Factory.md": {
+      "get": {
+        "operationId": "readStory02Factory",
+        "summary": "Read story chapter 2",
+        "description": "Use for 外资工厂、打字第一名、计划员、采购部20人对坐、工厂时代。",
+        "responses": {
+          "200": {
+            "description": "Story02Factory.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story03BranchReform.md": {
+      "get": {
+        "operationId": "readStory03BranchReform",
+        "summary": "Read story chapter 3",
+        "description": "Use for 分公司改革、一个人的战争、住宿被拒、保安对话、四个帮派。",
+        "responses": {
+          "200": {
+            "description": "Story03BranchReform.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story04FinanceShift.md": {
+      "get": {
+        "operationId": "readStory04FinanceShift",
+        "summary": "Read story chapter 4",
+        "description": "Use for 财务部两个世界、核算与经营、导师追问、经营财务转型。",
+        "responses": {
+          "200": {
+            "description": "Story04FinanceShift.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story05LearningByDoing.md": {
+      "get": {
+        "operationId": "readStory05LearningByDoing",
+        "summary": "Read story chapter 5",
+        "description": "Use for 30天学完所有岗位、白天帮干活晚上干自己、学习法则、岗位轮训。",
+        "responses": {
+          "200": {
+            "description": "Story05LearningByDoing.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story06Startup.md": {
+      "get": {
+        "operationId": "readStory06Startup",
+        "summary": "Read story chapter 6",
+        "description": "Use for 跳蚤网、第一个客户、创业开始、吹了两年、潮汕领导、第二曲线。",
+        "responses": {
+          "200": {
+            "description": "Story06Startup.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story07Breakthrough.md": {
+      "get": {
+        "operationId": "readStory07Breakthrough",
+        "summary": "Read story chapter 7",
+        "description": "Use for 2.98万课程、PPT签约50万、听课转折、现场签约。",
+        "responses": {
+          "200": {
+            "description": "Story07Breakthrough.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story08IPO.md": {
+      "get": {
+        "operationId": "readStory08IPO",
+        "summary": "Read story chapter 8",
+        "description": "Use for IPO、37条问题、专业升级、走一遍工厂、上市辅导。",
+        "responses": {
+          "200": {
+            "description": "Story08IPO.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story09MissionStart.md": {
+      "get": {
+        "operationId": "readStory09MissionStart",
+        "summary": "Read story chapter 9",
+        "description": "Use for 地铁4号线、财税妈妈、两次冠军、领导先干、财青藤诞生。",
+        "responses": {
+          "200": {
+            "description": "Story09MissionStart.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story10Investment.md": {
+      "get": {
+        "operationId": "readStory10Investment",
+        "summary": "Read story chapter 10",
+        "description": "Use for 固态电池、60万客单价、1500万利润、投资与咨询、智能制造。",
+        "responses": {
+          "200": {
+            "description": "Story10Investment.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story11IndustryMission.md": {
+      "get": {
+        "operationId": "readStory11IndustryMission",
+        "summary": "Read story chapter 11",
+        "description": "Use for 改变行业、三亚峰会、66元课程、疫情课程、行业使命。",
+        "responses": {
+          "200": {
+            "description": "Story11IndustryMission.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Story12DigitalLegacy.md": {
+      "get": {
+        "operationId": "readStory12DigitalLegacy",
+        "summary": "Read story chapter 12",
+        "description": "Use for 凌晨两点、数字分身、思想传承、下一站、为什么做数字分身。",
+        "responses": {
+          "200": {
+            "description": "Story12DigitalLegacy.md document",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
